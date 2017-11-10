@@ -4,5 +4,5 @@ class Person
     attributes.each {|k, v| self.send("#{k}=", v)}
   end
 
-  
+
 end
